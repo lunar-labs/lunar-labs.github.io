@@ -1,0 +1,123 @@
+html,
+    body,
+    header,
+    .jarallax {
+        height: 400px;
+    }
+
+    @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .view {
+            height: 400px;
+        }
+    }
+
+    .hljs {
+      border-radius: 7px;
+      padding: 1em;
+    }
+
+    #scrollspy {
+      overflow-y: auto;
+      max-height: calc(100vh - 120px);
+    }
+
+    #scrollspy .nav-item {
+      width: 100%;
+    }
+
+    #scrollspy a {
+      font-size: .8rem;
+      font-weight: 400;
+      line-height: 1.1rem;
+      padding: 0 5px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      color: black;
+    }
+
+    #scrollspy li .active {
+      font-weight: 600;
+    }
+
+    .nav-pills.default-pills .nav-item a{
+      border-color: #0e5ca0!important
+    }
+
+    h1,h2 {
+      padding-top: 50px;
+      cursor:default
+    }
+
+    #content h5, #content h6 {
+      font-weight: 900;
+    }
+
+    p img {
+      max-width: 100%;
+      border-radius: 7px;
+    }
+
+    p em img {
+      max-width: 100%;
+      border-radius: 7px;
+      padding-top: 50px;
+    }
+
+    #bigboiirow {
+      margin-top: -50px
+    }
+
+    h1 a,h2 a {
+      color: inherit;
+    }
+
+    h1 a:hover,h2 a:hover {
+      color: inherit;
+      opacity: 0.7;
+    }
+
+    .danger {
+      background-color: #db4545;
+      color: white;
+      padding: 5px 10px 5px 10px;
+      border-radius: 7px;
+      border: solid 3px #c22f2f;
+
+    }
+
+    .warning {
+      background-color: #e69131;
+      color: white;
+      padding: 5px 10px 5px 10px;
+      border-radius: 7px;
+      border: solid 3px #b6762d;
+
+    }
+
+    .success {
+      background-color: #68be2f;
+      color: white;
+      padding: 5px 10px 5px 10px;
+      border-radius: 7px;
+      border: solid 3px #53a11f;
+    }
+
+    code {
+      background-color: rgba(27,31,35,.05);
+      border-radius: 3px;
+      font-size: 85%;
+      margin: 0;
+      padding: .2em .4em;
+      color: inherit
+    }
+
+    th {
+      font-size: 22px!important;
+    }
+
+    th, td {
+      padding: 5px;
+    }
