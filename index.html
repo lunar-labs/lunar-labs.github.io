@@ -13,50 +13,29 @@
     <link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
 
     <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" href="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../../cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
-    <script src="../../cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-    <script>
-        window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-          "palette": {
-            "popup": {
-              "background": "#454545"
-            },
-            "button": {
-              "background": "#0e5ca0",
-              "text": "#ffffff"
-            }
-          },
-          "content": {
-            "message": "Lunar uses cookies to ensure you get the best experience on our website.",
-            "dismiss": "Dismiss",
-            "link": "Learn More"
-          }
-        })});
-    </script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
 
     <!-- In-document CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/css/mdb.min.css" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/mdb.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
   </head>
   <body class="fixed-sn" data-spy="scroll" data-target="#scrollspy" data-offset="80">
     <div id="slide-out" class="side-nav fixed dark">
       <ul class="custom-scrollbar">
         <div class="logo-wrapper waves-light" style="border-style: none; height: 80px">
-          <a href="/dashboard.json">
-            <img src="/img/lunar-logo.png" class="img-fluid flex-center px-4 py-4">
+          <a href="">
+            <img src="../img/lunar-logo.png" class="img-fluid flex-center px-4 py-4">
           </a>
         </div>
         <li>
           <ul class="collapsible collapsible-accordion">
             <li>
-              <a class="waves-effect" href="../indexfef7.html?hl=en">
+              <a class="waves-effect" href="">
                 Back to Home
               </a>
             </li>
@@ -128,11 +107,259 @@
       </li>
     </ul>
   </nav>
+  <div class="modal fade right" id="LangModal" tabindex="-1" role="dialog" aria-labelledby="LangModalAria" aria-hidden="true">
+    <div class="modal-dialog modal-full-height modal-right modal-notify modal-danger" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="heading lead">
+            Select a language
+          </p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">&times;</span>
+          </button>
+        </div>
+        <div class="list-group">
+          <a class="list-group-item list-group-item-action waves-effect font-weight-bold">
+            100% Maintained
+          </a>
+          <a href="" class="list-group-item list-group-item-action waves-effect">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" width="10%">
+            English
+          </a>
+          <a class="list-group-item list-group-item-action waves-effect font-weight-bold">
+            Community Made (soon tm)
+          </a>
+          <a href="" class="list-group-item list-group-item-action waves-effect">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" width="10%">
+            Deutsch
+          </a>
+          <a href="" class="list-group-item list-group-item-action waves-effect">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" width="10%">
+            Polski
+          </a>
+          <a href="" class="list-group-item list-group-item-action waves-effect">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg" width="10%">
+            Português
+          </a>
+</div>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="container">
+      <div id="bigboiirow" class="row pb-5">
+        <div id="content" class="col-lg-9 col-md-12 mb-3">
+          <p><em><img src="" alt="" /></em></p>
+          <h1 id="hello">Hello!</h1>
+          <hr />
+          <h4 id="welcometotheofficialdocumentationforLunar">Welcome to the official documentation for Lunar!</h4>
+          <p>In this lengthy document, you’ll learn many things like what Lunar is and what it does, how to navigate our website and, most importantly, how to support us on Patreon! <strong>Let’s just jump into it!</strong></p>
+          <h1 id="introduction">Introduction</h1>
+          <hr />
+          <p>Before we discuss our website, we will first discuss the reason why you’ll visit the website: <strong>Lunar!</strong><br>
+            What is Lunar, you ask? Lunar is a Discord bot that can perform many commands.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 pt-5 border-left">
+          <div class="sticky">
+          <div id="scrollspy">
+            <ul id="toc" class="nav nav-pills default-pills smooth-scroll"></ul>
+          </div>
 
+</div>
+        </div>
+      </div>
+    </main>
+    <div class="modal fade bottom show modal-content-clickable" id="modalPrompt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" style="padding-right: 17px; display: none;">
+    <div class="modal-dialog modal-frame modal-bottom modal-notify modal-info" role="document">
+    <div class="modal-content">
+    <div class="modal-body py-1 grey darken-2">
+    <div class="row d-flex justify-content-center align-items-center">
+        <p class="pt-3 pr-2 text-white">
+          There is no version of this documentation in your language. Redirected to English.
+        </p>
+        <a href="" type="button" class="btn btn-outline-white btn-md">
+          Translate this page
+        </a>
+        <a type="button" class="btn btn-outline-white btn-md" data-dismiss="modal">
+          Dismiss
+        </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <footer class="page-footer font-small elegant-color-dark pt-0 gay">
+      <div class="lunar-labs">
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+            </div>
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+              <a class="fb-ic ml-0" href="">
+                <i class="fab fa-facebook-f white-text mr-lg-4"> </i>
+              </a>
+              <a class="tw-ic" href="">
+                <i class="fab fa-twitter white-text mr-lg-4"> </i>
+              </a>
+              <a class="github-ic" href="https://github.com/lunar-labs">
+                <i class="fab fa-github white-text mr-lg-4"> </i>
+              </a>
+              <a class="tumblr-ic" href="">
+                <i class="fab fa-tumblr white-text mr-lg-4"> </i>
+              </a>
+              <a class="ins-ic" href="https://instagram.com/">
+                <i class="fab fa-instagram white-text mr-lg-4"> </i>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row mt-3">
+          <div class="col-12 col-md-4 col-sm-6 mb-4 float-right">
+            <img id="footerlogo" width="50%" src="../img/lunar-logo.png" class="img-fluid" alt="lunar-labs Logo">
+          </div>
+          <div class="col-4 col-md-3 col-sm-6 mb-4 mx-auto">
+            <h6 class="text-uppercase font-weight-bold">
+              <strong>Lunar Labs</strong>
+            </h6>
+            <hr class="lunar-labs accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="">Our Team</a>
+            </p>
+            <p>
+              <a href="">Projects</a>
+            </p>
+            <p>
+              <a href="">Branding</a>
+            </p>
+            <p>
+              <a href="https://discord.gg/A2pyhmx">Discord</a>
+            </p>
+          </div>
+          <div class="col-4 col-md-2 col-sm-6 mb-4 mx-auto">
+            <h6 class="text-uppercase font-weight-bold">
+              <strong>Lunar</strong>
+            </h6>
+            <hr class="lunar-labs accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="">Credits</a>
+            </p>
+            <p>
+              <a href="">Status</a>
+            </p>
+            <p>
+              <a href="https://patreon.com/LunarLabs">Patreon</a>
+            </p>
+            <p>
+              <a href="https://github.com/lunar-labs/Lunar-Bot">Github</a>
+            </p>
+          </div>
+          <div class="col-4 col-md-3 col-sm-6 mb-4 mx-auto">
+            <h6 class="text-uppercase font-weight-bold">
+              <strong>Resources</strong>
+            </h6>
+            <hr class="lunar-labs accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="welcome.html">Help &amp; Support</a>
+            </p>
+            <p>
+              <a href="https://github.com/lunar-labs/Lunar-Bot">Developers</a>
+            </p>
+            <p>
+              <a href="">Feedback</a>
+            </p>
+            <p>
+              <a href="">Terms</a> & <a href="">Privacy</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright py-3 text-center">
+        © 2019 Copyright:
+        <a href="">
+          <strong> Lunar Labs</strong>
+        </a>
+      </div>
+    </footer>
   <!-- JavaScript -->
   <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/js/popper.min.js"></script>
   <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/js/mdb.min.js"></script>
-  <script src="../../cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    const noLang = false;
+
+    if (noLang === true){
+      $('#modalPrompt').modal()
+    }
+
+    const h1 = $("#content h1")
+    const h2 = $("#content h2")
+
+    for (let h of h1) {
+      $("#toc").append(
+        `
+      <li class="nav-item">
+        <a class="nav-link" href="#${h.id}">${h.innerText}</a>
+      </li>
+      <ul class="nav ml-3" header="${h.id}"></ul>
+      `
+      )
+    }
+
+    for (let i of h2) {
+      $(`[header=${$(i).prevAll("h1")[0].id}]`).append(
+        `
+      <li class="nav-item">
+        <a class="nav-link" href="#${i.id}">${i.innerText}</a>
+      </li>
+      `
+      )
+    }
+
+    $("h1, h2").mouseenter(function () {
+        if ($(this).children().length > 1){
+          return;
+        }
+        $(this).attr("og", $(this).html());
+        $(this).html($(this).attr("og") + `<a href="#${$(this).attr("id")}"><i style="font-size: 15pt; transform: translateY(-6px)" class="far fa-link pl-3"></i></a>`);
+
+    })
+
+    $("h1, h2").mouseleave(function () {
+      $(this).html($(this).attr("og"))
+    })
+
+
+    $(".sticky").sticky({
+      topSpacing: 90,
+      zIndex: 2,
+      stopper: ".page-footer"
+    });
+
+    new WOW().init();
+
+    //Modal
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').focus()
+    })
+
+    // Material Select Initialization
+    $(document).ready(function () {
+      $('.mdb-select').material_select();
+    });
+
+    // SideNav Button Initialization
+    $(".button-collapse").sideNav();
+    // SideNav Scrollbar Initialization
+    var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+    Ps.initialize(sideNavScrollbar);
+
+    // Tooltips Initialization
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 </html>
